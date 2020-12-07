@@ -20,11 +20,11 @@ public class MenuItemDTO {
 
     private String languageId;
 
-    private List<GroupsDTO> group;
+    private List<GroupsDTO> groups;
 
     private String title;
 
     private String description;
 
-    private List<PriceDTO> price;
+    private List<PriceDTO> prices;
 }
