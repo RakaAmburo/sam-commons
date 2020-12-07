@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 @Builder
@@ -15,9 +16,15 @@ public class MenuItemDTO {
 
     private String id;
 
+    private String restaurantId;
+
+    private String languageId;
+
+    private List<GroupsDTO> group;
+
     private String title;
 
     private String description;
 
-    private BigDecimal price;
+    private List<PriceDTO> price;
 }
